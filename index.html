@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV et projets d’Adel Mcharek, étudiant en génie informatique : intelligence artificielle, science des données et développement d’applications.">
+    <title>Adel Mcharek | CV et projets</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+        <nav class="navigation" aria-label="Navigation principale">
+            <a class="logo" href="#accueil">Adel MCHAREK</a>
+            <div class="nav-links">
+                <a href="#profil">Profil</a>
+                <a href="#formation">Formation</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#engagement">Engagement</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button id="theme-toggle" type="button" aria-pressed="false" hidden>Mode sombre</button>
+        </nav>
+    </header>
+    <main id="contenu">
+        <section id="accueil" class="hero">
+            <div class="container hero-layout">
+                <div class="hero-content">
+                    <p class="eyebrow">CV et projets</p>
+                    <h1>Adel MCHAREK</h1>
+                    <p class="hero-title">Étudiant en cycle ingénieur en génie informatique</p>
+                    <p class="hero-description">Intelligence artificielle · Science des données · Développement d’applications</p>
+                    <p class="location">Sfax, Tunisie</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projets">Découvrir mes projets</a>
+                        <a class="button button-secondary" href="#contact">Me contacter</a>
+                    </div>
+                </div>
+                <img class="profile-photo" src="images/adel.jpg" alt="Portrait d’Adel Mcharek" width="260" height="300">
+            </div>
+        </section>
+        <section id="profil" class="section">
+            <div class="container">
+                <p class="eyebrow">À propos</p>
+                <h2>Profil</h2>
+                <p>Étudiant en première année du cycle ingénieur en génie informatique à l’IIT de Sfax, après une licence en informatique de gestion, je développe des projets en programmation, bases de données et apprentissage automatique.</p>
+                <p>J’ai créé une plateforme web intégrant un système de recommandation par IA et pratiqué la classification, les réseaux de neurones et la régression avec Python. Mon engagement à la JCI Zarzis a renforcé mon sens de l’organisation, du travail en équipe et des responsabilités.</p>
+            </div>
+        </section>
+        <section id="formation" class="section section-alt">
+            <div class="container">
+                <p class="eyebrow">Mon parcours</p><h2>Formation</h2>
+                <div class="timeline">
+                    <article class="card"><p class="date">Depuis 2026</p><h3>Cycle ingénieur en génie informatique</h3><p>Institut International de Technologie (IIT) — Sfax, Tunisie</p><p>Première année du cycle ingénieur.</p></article>
+                    <article class="card"><p class="date">2026</p><h3>Licence en informatique de gestion</h3><p>École Supérieure de Commerce — Sfax, Tunisie</p></article>
+                    <article class="card"><p class="date">2021</p><h3>Baccalauréat en sciences expérimentales</h3><p>Lycée 2 Mars 1934 — Zarzis, Tunisie</p></article>
+                </div>
+            </div>
+        </section>
+        <section id="competences" class="section">
+            <div class="container">
+                <p class="eyebrow">Mes outils</p><h2>Compétences techniques</h2>
+                <div class="cards-grid">
+                    <article class="card"><h3>Programmation et intelligence artificielle</h3><p>Pratique du perceptron, des réseaux MLP, des arbres de décision, de KNN et des systèmes de recommandation.</p><ul class="tags"><li>Python</li><li>NumPy</li><li>pandas</li><li>scikit-learn</li><li>Matplotlib</li></ul></article>
+                    <article class="card"><h3>Traitement et évaluation des données</h3><p>Préparation, encodage, standardisation, séparation entraînement/test, évaluation des modèles et validation croisée.</p><ul class="tags"><li>Google Colab</li><li>GridSearchCV</li><li>Validation croisée</li></ul></article>
+                    <article class="card"><h3>Bases de données et développement web</h3><p>Création d’interfaces et de fonctionnalités web, organisation et manipulation de données relationnelles.</p><ul class="tags"><li>SQL</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>Laravel</li></ul></article>
+                    <article class="card"><h3>Développement mobile</h3><p>Conception d’interfaces et de fonctionnalités d’une application e-commerce.</p><ul class="tags"><li>Flutter</li></ul></article>
+                </div>
+            </div>
+        </section>
+        <section id="projets" class="section section-alt">
+            <div class="container">
+                <p class="eyebrow">Mes réalisations</p><h2>Projets et travaux académiques</h2>
+                <div class="cards-grid">
+                    <article class="card project-card">
+                        <p class="project-type">Projet de fin d’études de licence</p><h3>Plateforme de gestion d’événements</h3>
+                        <p>Développement d’une application web intégrant un système de recommandation par intelligence artificielle.</p>
+                        <ul><li>Gestion des événements, utilisateurs et billets.</li><li>Stockage des informations dans une base SQL.</li><li>Intégration d’un système de recommandation.</li></ul>
+                        <ul class="tags"><li>Laravel</li><li>SQL</li><li>Intelligence artificielle</li></ul>
+                    </article>
+                    <article class="card project-card">
+                        <p class="project-type">Quatre notebooks Google Colab</p><h3>Ateliers en IA et science des données</h3>
+                        <ul>
+                            <li><strong>Réseaux de neurones :</strong> implémentation d’un perceptron avec NumPy et expérimentation de MLP sur les fonctions AND et XOR.</li>
+                            <li><strong>Classification en marketing bancaire :</strong> préparation et standardisation des données, comparaison de MLP, arbre de décision et KNN ; matrices de confusion, précision, rappel et F1-score.</li>
+                            <li><strong>Optimisation :</strong> validation croisée à cinq plis et recherche d’hyperparamètres avec GridSearchCV sur les arbres de décision et KNN.</li>
+                            <li><strong>Régression et exploration :</strong> KNN et régression linéaire sur California Housing (RMSE, R²) ; données boursières Apple/Tesla, rendements et moyennes mobiles.</li>
+                        </ul>
+                        <ul class="tags"><li>Python</li><li>scikit-learn</li><li>NumPy</li><li>pandas</li><li>Matplotlib</li></ul>
+                    </article>
+                    <article class="card project-card">
+                        <p class="project-type">Projet universitaire</p><h3>Site e-commerce</h3><p>Création d’une boutique en ligne connectée à une base de données SQL.</p>
+                        <ul><li>Catalogue de produits.</li><li>Gestion du panier.</li><li>Suivi des commandes.</li></ul>
+                        <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>SQL</li></ul>
+                    </article>
+                    <article class="card project-card">
+                        <p class="project-type">Projet universitaire</p><h3>Application mobile e-commerce</h3><p>Développement d’une application mobile avec Flutter.</p>
+                        <ul><li>Consultation d’un catalogue de produits.</li><li>Création d’interfaces de navigation.</li><li>Gestion du panier et passage de commande.</li></ul>
+                        <ul class="tags"><li>Flutter</li></ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="certifications" class="section">
+            <div class="container">
+                <p class="eyebrow">Apprentissage continu</p><h2>Certifications et formations en préparation</h2>
+                <div class="cards-grid">
+                    <article class="card"><span class="badge">En préparation</span><h3>IBM Data Science Professional Certificate</h3><p class="muted">IBM / Coursera</p><p>Apprentissage de Python, SQL, de la préparation et de l’exploration des données, de la visualisation et des modèles d’apprentissage automatique.</p></article>
+                    <article class="card"><span class="badge">En préparation</span><h3>Certification Oracle</h3><p class="muted">IIT, Sfax</p><p>Préparation dans le cadre du parcours de formation à l’Institut International de Technologie.</p></article>
+                    <article class="card"><span class="badge">En préparation</span><h3>DELF</h3><p>Préparation de l’examen du diplôme d’études en langue française.</p></article>
+                </div>
+            </div>
+        </section>
+        <section id="engagement" class="section section-alt">
+            <div class="container">
+                <p class="eyebrow">Responsabilités et vie associative</p><h2>Engagement à la JCI Zarzis</h2>
+                <p>Membre actif de la Jeune Chambre Internationale de Zarzis de 2019 à 2024, j’y ai exercé plusieurs responsabilités.</p>
+                <div class="timeline">
+                    <article class="card"><p class="date">2024</p><h3>Vice-président chargé des formations et du développement</h3><p>Responsabilité du volet formations et développement au sein de l’association.</p></article>
+                    <article class="card"><p class="date">2023</p><h3>Trésorier</h3><p>Responsabilité de la trésorerie dans le cadre du mandat associatif.</p></article>
+                    <article class="card"><p class="date">2022</p><h3>Conseiller chargé du thème national</h3><p>Responsabilité du thème national au sein de l’association.</p></article>
+                </div>
+                <p class="engagement-note">Compétences transversales : prise de responsabilités, sens de l’organisation, travail en équipe et communication.</p>
+            </div>
+        </section>
+        <section id="langues" class="section">
+            <div class="container"><h2>Langues et centres d’intérêt</h2>
+                <div class="cards-grid">
+                    <article class="card"><h3>Langues</h3><ul><li><strong>Arabe :</strong> langue maternelle</li><li><strong>Français :</strong> courant</li><li><strong>Anglais :</strong> intermédiaire</li></ul></article>
+                    <article class="card"><h3>Centres d’intérêt</h3><ul><li>Intelligence artificielle.</li><li>Science des données.</li><li>Nouvelles technologies.</li><li>Cyclisme.</li></ul></article>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section section-alt">
+            <div class="container"><p class="eyebrow">Échanger</p><h2>Contact</h2>
+                <p>Pour échanger sur mon parcours, mes projets ou mon projet de formation :</p>
+                <address class="contact-details">
+                    <p><strong>Email :</strong> <a href="mailto:adelmcharek650@gmail.com">adelmcharek650@gmail.com</a></p>
+                    <p><strong>Téléphone :</strong> <a href="tel:+21627237660">+216 27 237 660</a></p>
+                    <p><strong>Localisation :</strong> Sfax, Tunisie</p>
+                    <p><strong>LinkedIn :</strong> Adel MCHAREK</p>
+                </address>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><div class="container"><p>© 2026 Adel Mcharek — CV et projets</p><a href="#accueil">Retour en haut ↑</a></div></footer>
+</body>
+</html>
